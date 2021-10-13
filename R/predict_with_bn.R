@@ -8,7 +8,7 @@ source("./R/misc_functions.R")
 
 # prediction
 prediction = predict(prior,
-                     response="Adelt_vp_250m",
+                     response="hemerobia_250m",
                      newdata=bnbrik_df,
                      type="distribution")
 

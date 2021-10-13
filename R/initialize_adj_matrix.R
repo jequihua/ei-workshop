@@ -2,13 +2,13 @@
 library("tools")
 
 # load misc functions
-source("misc_functions.R")
+source("./R/misc_functions.R")
 
 # List of independent variable rasters file names
 indep_var_paths = list_files_with_exts("./indep_var_paths/",
                                        exts = "tif",
                                        full.names = FALSE)
-
+indep_var_paths
 # File name of dependent variable raster to be used
 dep_var_file = "hemerobia_250m.tif"
 

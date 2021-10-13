@@ -4,7 +4,7 @@ library("gRain")
 library("bnlearn")
 
 # load misc functions
-source("misc_functions.R")
+source("./R/misc_functions.R")
 
 # List of independent variable rasters.
 indep_var_paths = list_files_with_exts("./indep_var_paths/",
