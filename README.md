@@ -1,6 +1,10 @@
-# bnecology
+# Ecosystem Integrity
 
-This repository provides tools to perform automated estimation of Ecological Integrity (EI). This is performed in a supervised manner so reference values are required, as well as independent variables available wall-to-wall over the region of interest.
+This repository is meant to be used as an introduction to perform automated estimation of Ecological Integrity (EI).
+
+It accompanies the following blog:
+
+https://ecosystem-integrity.netlify.app/
 
 The general workflow is as follows:
 
